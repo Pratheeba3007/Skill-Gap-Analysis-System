@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Gap Analysis System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Skill Gap Analysis System</h1>
+        <p>Identify your skill gaps and improve for entry-level jobs!</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Enter Your Skills</h2>
+            <form id="skillForm">
+                <label for="skills">Your Skills (comma separated):</label>
+                <input type="text" id="skills" placeholder="HTML, CSS, JavaScript">
+                
+                <label for="jobRole">Desired Job Role:</label>
+                <select id="jobRole">
+                    <option value="webDeveloper">Web Developer</option>
+                    <option value="dataAnalyst">Data Analyst</option>
+                    <option value="softwareTester">Software Tester</option>
+                </select>
+
+                <button type="submit">Analyze Gap</button>
+            </form>
+        </section>
+
+        <section class="result-section">
+            <h2>Skill Gap Result</h2>
+            <div id="result">Your analysis will appear here.</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Skill Gap Analysis System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
